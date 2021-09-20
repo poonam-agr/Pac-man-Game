@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    max-height: 100vh;
+    background-color: black;
+    box-sizing: border-box;
+}
+.container{
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+	color: #E8BE00/*#D5B800*/;
+}
+h1{
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin: 1.1em 0;
+}
+.game{
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+
+.grid{
+	width: 26.25em;
+    height: 26.25em;
+    margin: 0 auto;
+    border: solid black;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+
+}
+.grid div {
+    width: 0.9375em;
+    height: 0.9375em;
+}
+.pac-dot {
+    background-color: #FFF;
+    border: 0.33em solid black;
+    box-sizing: border-box;
+}
+.wall {
+	border: 0.2em solid /*#0A0049*/#070036;
+	box-sizing: border-box;
+}
+.empty {
+	background-color: black;
+	border: none;
+}
+
+.power-pellet {
+    background-color: green;
+    border-radius: 50%;
+}
+.pacman {
+    background-color: yellow;
+    border-radius: 50%;
+    border:none;
+}
+.blinky {
+    background-color: red;
+    border: none;
+    border-radius:0;
+}
+
+.pinky {
+    background-color: pink;
+    border: none;
+    border-radius:0;
+}
+
+.inky {
+    background-color: blue;
+    border: none;
+    border-radius:0;
+}
+
+.clyde {
+    background-color: orange;
+    border: none;
+    border-radius:0;
+}
+.scared-ghost{
+	background-color: #BF0031;
+}
+#won{
+	display: none;
+	font-size: 1.5em;
+}
+#lose{
+	display: none;
+	font-size: 1.5em;
+}
